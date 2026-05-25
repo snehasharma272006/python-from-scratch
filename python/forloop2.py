@@ -14,12 +14,28 @@ else:
 
 
 
-n=int(input("enter number:"))
-for i in range (2, n):
-     if n%i==0:
-        print("not prime")
-    
-    
-else:
+n = int(input("enter number: "))
+
+is_prime = True
+
+for i in range(2, n):
+    if n % i == 0:
+        is_prime = False
+        break
+
+if is_prime:
     print("prime")
+else:
+    print("not prime")
+
+
+
+rev=""
+s=input("input string")
+rev = s[::-1]
+if rev==s:
+   print("palindrome")
+else:
+   print("not palindrome")
+
   
