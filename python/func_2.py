@@ -139,7 +139,3 @@ if __name__ == "__main__":
         print(f"{key}: {value}")
 
 
-# PRACTICE:
-# A. Add a category field and clean it.
-# B. Find the product with the highest revenue.
-# C. Try an empty list and check that the program does not crash.
