@@ -83,8 +83,3 @@ if __name__ == "__main__":
 
     print("Total valid revenue:", total_revenue)
 
-
-# PRACTICE:
-# A. Create a function to calculate average revenue.
-# B. Apply a 5% discount to the Notebook price.
-# C. Add another valid product to the sales list.
